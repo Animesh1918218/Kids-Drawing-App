@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/colorsLayout">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10sp">
+
+    <ImageButton
+        android:id="@+id/purplebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/color_background"
+        android:tag="#A020F0"
+        android:background="#A020F0"
+        android:layout_marginRight="5dp"
+
+        />
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/redbtn"
+        android:src="@drawable/color_background"
+        android:background="#FF0000"
+        android:tag="#FF0000"
+        android:layout_marginRight="5dp"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/blackbtn"
+        android:background="@color/black"
+        android:tag="#FF000000"
+        android:src="@drawable/color_background"
+        android:layout_marginRight="5dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/greenbtn"
+        android:src="@drawable/color_background"
+        android:tag="#008000"
+        android:background="#008000"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/yellowbtn"
+        android:src="@drawable/color_background"
+        android:tag="#008000"
+        android:background="#80eed202"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp">
+
+        <ImageButton
+            android:id="@+id/bluebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="#1572A1"
+            android:src="@drawable/color_background"
+            android:tag="#1572A1"
+
+            />
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/pinkbn"
+            android:src="@drawable/color_background"
+            android:background="#ED5EDD"
+            android:tag="#ED5EDD"
+            android:layout_marginRight="5dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/cyanbtn"
+            android:background="#7882A4"
+            android:tag="#7882A4"
+            android:src="@drawable/color_background"
+            android:layout_marginRight="5dp"/>
+
+        <ImageButton
+            android:id="@+id/othergreenbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#96CEB4"
+            android:src="@drawable/color_background"
+            android:tag="#96CEB4" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/orangeredbtn"
+            android:src="@drawable/color_background"
+            android:tag="#D9534F"
+            android:background="#D9534F"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

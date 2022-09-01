@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:padding="1dp"
+    android:id="@+id/myFrameLayout"
+    android:background="@drawable/my_own_background">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/mybackgroundImage"
+
+      android:scaleType="fitXY"/>
+
+  <com.example.kidsdrawingapp.MyDrawingView
+      android:id="@+id/myDrawingView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+      android:background="#99FFFFFF" />
+
+
+</FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    >
+  <ImageButton
+      android:layout_marginRight="10sp"
+      android:id="@+id/brushImage"
+      android:background="@color/white"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:src="@drawable/paintbrsuh"
+      android:scaleType="fitXY"/>
+  <ImageButton
+
+      android:id="@+id/captureImageFromGallery"
+      android:layout_marginRight="10dp"
+     android:background="@color/white"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_praveen_minimal_outline_gallery"
+      android:scaleType="fitXY"/>
+  <ImageButton
+
+      android:id="@+id/saveImageFromApp"
+      android:background="@color/white"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+     android:padding="8dp"
+    android:layout_marginRight="10dp"
+      android:src="@drawable/saveimage"
+      android:scaleType="fitXY"/>
+  <ImageButton
+
+      android:id="@+id/colorButton"
+      android:background="@color/white"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="50dp"
+      android:layout_height="match_parent"
+      android:padding="8dp"
+
+      android:src="@drawable/color_wheel"
+      android:scaleType="fitXY"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
